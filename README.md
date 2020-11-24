@@ -10,19 +10,18 @@ This notebook is my attempt to build a basic neural networks model that can reco
 
 The MNIST dataset is available through the scikit-learn datasets as well as other open-sourced platforms. Here you find black and white images of hand-written digits (numbers 0 through 9). This dataset consist of 60,000 examples in the training set and 10,000 examples in the test set - which are already nicely split. Plus, the digits have been size-normalized and centered in a fixed-size image.
 
-
-![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/main/Images/digits_sample.png)
-
-*Sample of handwritten digits from the MNIST dataset.*
-
-
 ## README Outline
-* Introduction
+* Introduction and README outline
 * Repo Contents
 * Libraries & Prerequisites
 * Results
 * Future Work
 * Built With, Contributors, Authors, Acknowledgments
+
+
+![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/main/Images/digits_sample.png)
+
+*Sample of handwritten digits from the MNIST dataset.*
 
 
 ## Repo Contents
@@ -73,6 +72,7 @@ Get some help from someone who knows what they are doing!
 ![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/main/Images/gary-scott-cross-connected.jpg)
 
 *My idea of what is going on under a neural network. Source: Gary Scott, freeimages.com*
+
 
 ## Built With:
 Jupyter Notebook

@@ -1,7 +1,7 @@
 # Digits Classification Neural Network
 
 
-![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/master/Images/john-barkiple-unsplash.jpg)
+![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/main/Images/john-barkiple-unsplash.jpg)
 
 *Using a simple Neural Network on the MNIST dataset. Source: John Barkple, freeimages.com*
 
@@ -11,14 +11,13 @@ This notebook is my attempt to build a basic neural networks model that can reco
 The MNIST dataset is available through the scikit-learn datasets as well as other open-sourced platforms. Here you find black and white images of hand-written digits (numbers 0 through 9). This dataset consist of 60,000 examples in the training set and 10,000 examples in the test set - which are already nicely split. Plus, the digits have been size-normalized and centered in a fixed-size image.
 
 
-![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/master/Images/digits_sample.png)
+![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/main/Images/digits_sample.png)
 
 *Sample of handwritten digits from the MNIST dataset.*
 
 
 ## README Outline
 * Introduction
-* Project Summary
 * Repo Contents
 * Libraries & Prerequisites
 * Results
@@ -42,8 +41,7 @@ These are the libraries that I used in this project.
 * import numpy as np
 * import pandas as pd
 * import random as rn
-
-# Tensorflow
+* Tensorflow
 * import tensorflow.random as tfr
 * import tensorflow.keras as keras
 * from tensorflow.keras.models import Sequential, load_model
@@ -54,15 +52,11 @@ These are the libraries that I used in this project.
 * from tensorflow.keras.optimizers import RMSprop, Adam
 * from tensorflow.keras.preprocessing.image import ImageDataGenerator
 * from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
-
-# Chart
+* Chart
 * import matplotlib.pyplot as plt
 * import matplotlib.image as mpimg
-
 * import seaborn as sns
-
 * from sklearn.metrics import classification_report
-
 * from PIL import Image
 * import os
 * import cv2
@@ -76,7 +70,7 @@ Honestly, I couldn't really get it to work.
 Get some help from someone who knows what they are doing!
 
 
-![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/master/Images/gary-scott-cross-connected.jpg)
+![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/main/Images/gary-scott-cross-connected.jpg)
 
 *My idea of what is going on under a neural network. Source: Gary Scott, freeimages.com*
 

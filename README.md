@@ -1,9 +1,9 @@
 # Digits Classification Neural Network
 
 
-![](https://raw.githubusercontent.com/twhipple/Wine_Classification/master/Images/wine-making-mirofoto.jpg)
+![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/master/Images/john-barkiple-unsplash.jpg)
 
-*Predicting the quality of wine through classification. Source: 'mirofoto', freeimages.com*
+*Using a simple Neural Network on the MNIST dataset. Source: John Barkple, freeimages.com*
 
 ## Intro
 This notebook is my attempt to build a basic neural networks model that can recognize hand-written digits.
@@ -11,9 +11,9 @@ This notebook is my attempt to build a basic neural networks model that can reco
 The MNIST dataset is available through the scikit-learn datasets as well as other open-sourced platforms. Here you find black and white images of hand-written digits (numbers 0 through 9). This dataset consist of 60,000 examples in the training set and 10,000 examples in the test set - which are already nicely split. Plus, the digits have been size-normalized and centered in a fixed-size image.
 
 
-![](https://raw.githubusercontent.com/twhipple/Wine_Classification/master/Images/Alcohol-quality.png)
+![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/master/Images/digits_sample.png)
 
-*Alcohol seems to be related to the quality of wine.*
+*Sample of handwritten digits from the MNIST dataset.*
 
 
 ## README Outline
@@ -24,11 +24,6 @@ The MNIST dataset is available through the scikit-learn datasets as well as othe
 * Results
 * Future Work
 * Built With, Contributors, Authors, Acknowledgments
-
-
-![](https://raw.githubusercontent.com/twhipple/Wine_Classification/master/Images/citric_acid_boxplot.png)
-
-*Citric Acid boxplot demonstrating the correlation with Quality and showing a few outliers.*
 
 
 ## Repo Contents
@@ -81,9 +76,9 @@ Honestly, I couldn't really get it to work.
 Get some help from someone who knows what they are doing!
 
 
-![](https://raw.githubusercontent.com/twhipple/Wine_Classification/master/Images/bottles-of-wine-carlos-sillero.jpg)
+![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/master/Images/gary-scott-cross-connected.jpg)
 
-*Which wine would you choose? Source: Carlos Sillero, freeimages.com*
+*My idea of what is going on under a neural network. Source: Gary Scott, freeimages.com*
 
 ## Built With:
 Jupyter Notebook

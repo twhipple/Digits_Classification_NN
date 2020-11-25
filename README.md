@@ -5,10 +5,12 @@
 
 *Using a simple Neural Network on the MNIST dataset. Source: John Barkple, freeimages.com*
 
+
 ## Intro
 This notebook is my attempt to build a basic neural networks model that can recognize hand-written digits.
 
 The MNIST dataset is available through the scikit-learn datasets as well as other open-sourced platforms. Here you find black and white images of hand-written digits (numbers 0 through 9). This dataset consist of 60,000 examples in the training set and 10,000 examples in the test set - which are already nicely split. Plus, the digits have been size-normalized and centered in a fixed-size image.
+
 
 ## README Outline
 * Introduction and README outline
@@ -62,11 +64,11 @@ These are the libraries that I used in this project.
 
 
 ## Conclusions
-Honestly, I couldn't really get it to work.
+So the Convolutional Nueral Network did slightly better than the basic Multi-layer Perceptron NN. Both had pretty high valadation accuracy results even after only a couple Epochs.
 
 
 ## Future Work
-Get some help from someone who knows what they are doing!
+With some help from my former instructor, Jeff Herman, I was finally able to get these simple models to run. I'm sure there are more parameters I could adjust, or add more layers to the perceptron in either model. It didn't seem like running more Epochs would make a difference, though I could change the batch size. I would also really like to see how this model works with additonal hand-written digits.
 
 
 ![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/main/Images/gary-scott-cross-connected.jpg)

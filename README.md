@@ -3,7 +3,7 @@
 
 ![](https://raw.githubusercontent.com/twhipple/MNIST_Digits_Classification_NN/main/Images/john-barkiple-unsplash.jpg)
 
-*Using a simple Neural Network on the MNIST dataset. Source: John Barkple, freeimages.com*
+*My idea for a visual of a simple multi-layer perceptron Neural Network. Source: John Barkple, freeimages.com*
 
 
 ## Intro
@@ -91,4 +91,5 @@ Thomas Whipple
 Please read LICENSE.md for details
 
 ## Acknowledgments
+Thank you to Jeff Herman for all of your support and help with code!
 Thank you to scikit-learn for the dataset.
